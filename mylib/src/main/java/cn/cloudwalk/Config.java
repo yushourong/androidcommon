@@ -1,17 +1,13 @@
-/**
- * Project Name:pg2
+
+/** Project Name:common
  * Create User:yusr
  * Update User:yusr
- * Package Name:cn.cloudwalk.pg2.app
+ * Package Name:cn.cloudwalk.common
  * Date:2016/9/2713:43
  * Copyright @ 2010-2016 Cloudwalk Information Technology Co.Ltd All Rights Reserved.
  */
-package cn.cloudwalk;/**
- * Create User:yusr
- * Date:2016/9/2713:43
- * Copyright @ 2010-2016 Cloudwalk Information Technology Co.Ltd All Rights Reserved.
- *
- */
+package cn.cloudwalk;
+
 
 /**
  * ClassName: Config <br/>
@@ -24,11 +20,11 @@ package cn.cloudwalk;/**
  */
 public class Config {
     /**okhttp超时**/
-    public static final long httpConnectTimeout=10000L;
-    public static final long httpReadTimeout=10000L;
-    public static final long httpWriteTimeout=10000L;
+    public static final long httpConnectTimeout = 10000L;
+    public static final long httpReadTimeout = 10000L;
+    public static final long httpWriteTimeout = 10000L;
     /**是否调试模式**/
-    public static final boolean isDebug=BuildConfig.DEBUG;
+    public static final boolean isDebug = BuildConfig.DEBUG;
 //
 //    public static final String catchdir = Util.getDiskCacheDir(MyApplication.getIntstance()) + "/girls";
 }
